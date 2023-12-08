@@ -13,7 +13,7 @@ public static class Operations
         number = number + base_n;
         number = number % base_n;
 
-        while (number > 0) // 
+        while (number > 0) 
         {
             temp1 = a / number;
             x = number;

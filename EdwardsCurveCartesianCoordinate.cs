@@ -40,7 +40,7 @@ namespace EllipticCurveCompoents
 
         private CartesianPoint MultiplyPoint(CartesianPoint point, BigInteger k)
         {
-            CartesianPoint result = new CartesianPoint(0, 1);// у кривой Эдвардса нейтраьная точка (0,1) ??
+            CartesianPoint result = new CartesianPoint(0, 1);
             var tmp = point;
             while (k != 0)
             {

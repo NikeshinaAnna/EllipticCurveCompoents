@@ -4,6 +4,5 @@ namespace EllipticCurveCompoents
 {
     public interface IPoint
     {
-
     }
 }
